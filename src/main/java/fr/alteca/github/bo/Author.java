@@ -2,6 +2,7 @@ package fr.alteca.github.bo;
 
 public class Author {
 	private String name;
+	//Commentaire
 	private String email;
 
 	public String getName() {
