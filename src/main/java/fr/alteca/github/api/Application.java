@@ -34,6 +34,7 @@ public class Application {
 		}
 		
 		//Commit 1.0
+		//Commit 1.2
 	}
 
 	private static MultiValueMap createHeaders(String username, String password) {
