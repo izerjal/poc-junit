@@ -32,9 +32,7 @@ public class Application {
 			Branche obtainedBranch = restTemplate.getForObject(new URI(uriValue + "/" + branche.getName()), Branche.class);
 			log.info(obtainedBranch.toString());
 		}
-		
-		//Commentaire 1
-		//Commentaire 34-2
+
 	}
 
 	private static MultiValueMap createHeaders(String username, String password) {
